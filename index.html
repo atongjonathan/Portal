@@ -24,7 +24,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js" integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js" integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -219,6 +220,139 @@
                     </div>
                 </div>
 
+                <div class="row">
+
+
+
+
+                    <!-- Left col -->
+                    <div class="col-md-8">
+                        <!-- MAP & BOX PANE -->
+
+                        <!-- TABLE: LATEST ORDERS -->
+                        <div class="box box-info">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Personal Information</h3>
+
+                                <div class="box-tools pull-right update">
+                                    <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#modal-default"><i class="fa fa-edit"></i>Update
+                                        Profile</button>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="table-responsive">
+                                    <table class="table no-margin">
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="#">Admission No:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblNo">E109/3593G/23</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">ID/ Passport:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblIDNo">42464620</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Full Name:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblNames">BRIAN, Ochieng </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Gender:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblGender">Male</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Date of Birth:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblDOB">07/29/04</span><span id="Main1_Label8"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Phone Number:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblPhoneNo1"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Email Address:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblEmail">brian.ochieng23@s.karu.ac.ke</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">Postal Address:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblPostalAddress">56</span>&nbsp;<span id="Main1_lblPostalAddress2"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">University Email:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblUmail"></span>&nbsp;<span id="Main1_Label2"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">University Email Password:</a></td>
+                                                <td>
+                                                    <div>
+                                                        <span id="Main1_lblMailPass"></span>&nbsp;<span id="Main1_Label4"></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <!-- /.table-responsive -->
+                            </div>
+                            <!-- /.box-body -->
+
+                            <!-- /.box-footer -->
+                        </div>
+                        <!-- /.box -->
+
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="alert alert-info alert-dismissible fade in" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h4>
+                                <span id="Main1_lblError"></span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+
             </section>
 
         </main>
@@ -226,12 +360,25 @@
 
 
     </main>
-
+        
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    
+    <script>
+
+var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+    </script>
 
     <script>
 $(document).ready(function () {
