@@ -208,7 +208,7 @@ header
 @media (max-width: 500px) {
     .sidebar
     {
-        width: 40%;
+        width: 50%;
     }
     .ham
     {
